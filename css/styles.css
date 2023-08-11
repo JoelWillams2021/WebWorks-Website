@@ -7,7 +7,8 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    width:14%
+    width:14%;
+    height: 120%;
 }
 
 .about-us-header{
@@ -478,6 +479,68 @@ font-size: 12px;
 .getsocial,.insta img{
     display: inline-block;
 }
+
+@media screen and (max-width: 425px) {
+    .color-blocks {
+      height: 300%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .about-us-paragraph-box{
+        margin-right: 6%;
+    }
+
+    .color-arrow{
+        margin-top: 0%;
+        transform: rotate(97deg);
+    }
+
+    .container{
+        grid-template-columns: repeat(1, 2fr);
+        grid-row-gap: 55%;
+    }
+
+    .icon-container{
+        margin-top: -85%;
+        grid-template-columns: repeat(1, 2fr);
+        grid-column-gap: 5%;
+        grid-row-gap: 492%;
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 426px) {
+      .color-blocks {
+            height: 320%;
+        
+        }
+  
+      .about-us-paragraph-box{
+          margin-right: 6%;
+      }
+  
+      .color-arrow{
+          margin-top: 0%;
+          transform: rotate(97deg);
+      }
+  
+      .container{
+        margin-top: 14%;
+        grid-template-columns: repeat(1, 2fr);
+        grid-row-gap: 55%;
+        margin-left: 43%;
+      }
+  
+      .icon-container{
+        margin-top: -64%;
+        margin-left: 58%;
+        grid-template-columns: repeat(1, 2fr);
+        grid-column-gap: 5%;
+        grid-row-gap: 638%;
+      }
+    
+    
+  }
+
+
 
 
 
