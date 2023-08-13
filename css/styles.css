@@ -245,6 +245,7 @@ body{
     font-size: large;
 }
 
+
 .title {
     position: relative;
     top: 2.0%;
@@ -271,14 +272,14 @@ body{
     font-size: 15px;
     color: white;
     position: relative;
-    top: -14%;
+    top: -55%;
     left: 3.5%;
     margin: 0px;
 }
 
 .contact {
     position: relative;
-    top: -11%;
+    top: -50%;
     left: 3%;
 }
 
@@ -305,7 +306,7 @@ button:hover {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -7%;
+    top: -47%;
     left: 3%;
 }
 .insta{
@@ -337,19 +338,18 @@ button:hover {
     font-size: 50px;
     color: white;
     position: relative;
-    top: -6%;
+    top: -47%;
     text-align: center;
 }
-
 .timelinepic {
     position: relative;
-    top: -12%;
+    top: -51%;
     text-align: center;
 }
 
 .title2 {
     position: relative;
-    top: -13.0%;
+    top: -52.0%;
     left: 2.5%;
 }
 
@@ -368,7 +368,9 @@ button:hover {
     border-radius: 50%;
     border: 0px solid;
     padding: 7px;
-    background:linear-gradient(#94d6df, #94d6df) content-box, #018fa6;
+    background:
+        linear-gradient(#94d6df, #94d6df) content-box,
+        #018fa6;
     position: relative;
     left: 48.35%;
     top: -10%;
@@ -382,60 +384,55 @@ button:hover {
     margin-left: -3px;
     top: -10%;
 }
-
 .line1{
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 65%;
-    top: -42%;
+    top: -80%;
     font-size: 20px;
     color: black;
 }
-
 .line1 p{
     width: 225px;
-    margin: 5px;
-    text-align: center;
-    font-size: 12px;
+margin: 5px;
+text-align: center;
+font-size: 12px;
 }
-
 .line2{
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 10%;
-    top: -45%;
+    top: -85%;
     font-size: 20px;
     color: black;
 
 }
-
 .line2 p{
     width: 325px;
-    margin: 5px;
-    text-align: center;
-    font-size: 12px;
+margin: 5px;
+text-align: center;
+font-size: 12px;
 }
-
 .line3{
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 65%;
-    top: -48%;
+    top: -88%;
     font-size: 20px;
     color: black;
 
 }
 .line3 p{
     width: 325px;
-    margin: 5px;
-    text-align: center;
-    font-size: 12px;
+margin: 5px;
+text-align: center;
+font-size: 12px;
 }
 .line4{
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 10%;
-    top: -47%;
+    top: -85%;
     font-size: 20px;
     color: black;
 
@@ -450,7 +447,7 @@ font-size: 12px;
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 65%;
-    top: -55%;
+    top: -92%;
     font-size: 20px;
     color: black;
 }
@@ -463,72 +460,12 @@ font-size: 12px;
 
 .pic{
     position: relative;
-    top:-142%;
+    top:-35%;
     left: 52%;
 }
 .getsocial,.insta img{
     display: inline-block;
 }
-
-@media screen and (max-width: 425px) {
-    .color-blocks {
-      height: 300%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-
-    .about-us-paragraph-box{
-        margin-right: 6%;
-    }
-
-    .color-arrow{
-        margin-top: 0%;
-        transform: rotate(97deg);
-    }
-
-    .container{
-        grid-template-columns: repeat(1, 2fr);
-        grid-row-gap: 55%;
-    }
-
-    .icon-container{
-        margin-top: -85%;
-        grid-template-columns: repeat(1, 2fr);
-        grid-column-gap: 5%;
-        grid-row-gap: 492%;
-    }
-  }
-
-  @media screen and (max-width: 768px) and (min-width: 426px) {
-      .color-blocks {
-            height: 320%;
-        
-        }
-  
-      .about-us-paragraph-box{
-          margin-right: 6%;
-      }
-  
-      .color-arrow{
-          margin-top: 0%;
-          transform: rotate(97deg);
-      }
-  
-      .container{
-        margin-top: 14%;
-        grid-template-columns: repeat(1, 2fr);
-        grid-row-gap: 55%;
-        margin-left: 43%;
-      }
-  
-      .icon-container{
-        margin-top: -64%;
-        margin-left: 58%;
-        grid-template-columns: repeat(1, 2fr);
-        grid-column-gap: 5%;
-        grid-row-gap: 638%;
-      }
-    
-    
-  }
 
 
 
