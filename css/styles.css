@@ -6,7 +6,7 @@ body{
     background-color: #94d6ef;
     width: 102%;
     height: 102vh;
-    margin-top:-10%;
+    top:20%;
 }
 .website{
     position: relative;
