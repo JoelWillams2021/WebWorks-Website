@@ -3,9 +3,13 @@ body{
     overflow-x: hidden;
 }
 .website{
+    position: relative;
+    margin-left: -1%;
+    margin-top: -1%;
+    width: 102%;
+    height: 102vh;
     background-color: #018fa6;
-    width: 100%;
-    height:100vh;
+
 }
 .color-blocks{
     position: absolute;
