@@ -4,7 +4,7 @@ body{
 }
 .website{
     background-color: #018fa6;
-
+    width: 100%;
 }
 .color-blocks{
     position: absolute;
