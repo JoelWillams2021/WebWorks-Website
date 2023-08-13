@@ -2,7 +2,10 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+.website{
+    background-color: #018fa6;
 
+}
 .color-blocks{
     position: absolute;
     top: 0px;
