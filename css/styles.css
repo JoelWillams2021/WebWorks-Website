@@ -287,14 +287,13 @@ body{
     font-size: 15px;
     color: white;
     position: relative;
-    top: -65%;
     left: 3.5%;
-    margin: 0px;
+    margin-top: -29%;
 }
 
 .contact {
     position: relative;
-    top: -50%;
+    top: 12%;
     left: 3%;
 }
 
@@ -321,7 +320,7 @@ button:hover {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -47%;
+    top: 13%;
     left: 3%;
 }
 .insta{
