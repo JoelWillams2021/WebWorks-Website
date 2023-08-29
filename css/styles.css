@@ -107,30 +107,28 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    position: relative;
+    margin-top: -5%;
 }
 
 .banner-text{
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 57%;
     left: 50%;
-    margin-top: -10%;
+    margin-top: -17%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 .banner-title-text{
     font-family:'Montserrat', sans-serif;
-    position: relative;
-    margin-top: -5%;
     font-size: 310%;
 }
 
 .icon-image-container{
-    position: relative;
     margin-left: 87%;
-    margin-top: 5.8%;
+    margin-top: -.5%;
 }
 
 .client-textbox{
@@ -152,16 +150,6 @@ body{
     margin-right: 31%;
     margin-left: -20%;
     line-height: 1.5;
-}
-
-.webphoto{
-    margin-top: 10%;
-    width: 50%;
-    height: 10%;
-}
-.contactus{
-    position: absolute;
-    
 }
 
 .des{
@@ -299,14 +287,13 @@ body{
     font-size: 15px;
     color: white;
     position: relative;
-    top: -65%;
     left: 3.5%;
-    margin: 0px;
+    margin-top: -29%;
 }
 
 .contact {
     position: relative;
-    top: -50%;
+    top: 12%;
     left: 3%;
 }
 
@@ -333,7 +320,7 @@ button:hover {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -47%;
+    top: 13%;
     left: 3%;
 }
 .insta{
@@ -503,4 +490,3 @@ font-size: 12px;
 .nav-links{
     margin-left: 14%;
 }
-
